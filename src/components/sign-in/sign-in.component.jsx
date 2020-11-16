@@ -61,11 +61,8 @@ render(){
             />
             <div className="buttons">
                 <CustomButton type="submit" value="Sign In">Sign In</CustomButton>
-                <CustomButton onClick={signInWithGoogle} IsGoogleSignIn>
-                {''} 
+                <CustomButton type="button" onClick={signInWithGoogle} IsGoogleSignIn>
                     Sign In With Google
-            {''}
-
                 </CustomButton>
             </div>
 
